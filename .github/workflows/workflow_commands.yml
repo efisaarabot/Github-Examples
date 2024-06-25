@@ -10,4 +10,4 @@ jobs:
           echo "::group::My Group Message"
           echo "Message 1"
           echo "Message 2"
-          exho "::endgroup::"
+          echo "::endgroup::"
