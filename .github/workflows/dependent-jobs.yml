@@ -8,7 +8,7 @@ jobs:
     needs: job1
     steps:
       - name: stepA
-        run: echo "HELLO!"
+        run: echo "WORLD!"
   job1:
     runs-on: ubuntu-latest
     steps:
